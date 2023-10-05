@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import "./About.scss";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import Gmap from "../GoogleMap/Gmap";
-import { Link as ScrollLink } from "react-scroll";
 
 const About = ({ data }) => {
   const { imgLink, title, subtitle, text, details, cvPdf } = data;
@@ -37,9 +36,17 @@ const About = ({ data }) => {
                 >
                   <div className="st-text-block-text">
                     <p>
-                      Rahma Meadow of Mercy Cemetery is a Muslim-only cemetery
-                      in Lehigh Valley, PA. This cemetery can serve Muslims in
-                      the surrounding areas. Please contact us for more details.
+                      From Muslim Association of Lehigh Valley, PA – 23 miles or
+                      ~35 min <br />
+                      From Easton Phillipsburg Muslim Associaton, PA – 39 miles
+                      or ~49 min <br />
+                      From Islamic Education Center of Pennsylvania – 16 miles
+                      or ~26 min <br />
+                      From Holland Tunnel, NJ – 108 miles or ~2 hours <br />
+                      From I-95 & I-476 – 67 miles or ~1 hour & 15 minutes{" "}
+                      <br /> From Reading, PA – 15 miles or ~24 minutes <br />{" "}
+                      From Lancaster, PA – 47 miles or ~55 minutes <br /> From
+                      Landsdale, PA – 35 miles or ~55 minutes
                     </p>
                   </div>
                   <div>{/*<h3>CODE</h3>*/}</div>

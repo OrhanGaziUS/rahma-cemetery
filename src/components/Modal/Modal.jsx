@@ -10,7 +10,7 @@ const Modal = ({ img, title, subTitle, modalClose }) => {
       <div className="modal-dialog modal-lg">
         <div className="modal-content">
           <div className="modal-header">
-            <h4 className="modal-title">MODAL JSX</h4>
+            <h4 className="modal-title"></h4>
             <button
               type="button"
               className="btn-close"

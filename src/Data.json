@@ -95,8 +95,8 @@
       {
         "imgLink": "./images/portfolio/portfolio1.jpg",
         "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200"
@@ -104,8 +104,8 @@
       {
         "imgLink": "./images/portfolio/portfolio2.jpg",
         "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "300"
@@ -113,8 +113,8 @@
       {
         "imgLink": "./images/portfolio/portfolio3.jpg",
         "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "400"
@@ -122,8 +122,8 @@
       {
         "imgLink": "./images/portfolio/portfolio4.jpg",
         "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "500"
@@ -131,8 +131,8 @@
       {
         "imgLink": "./images/portfolio/portfolio5.jpg",
         "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "600"
@@ -140,8 +140,8 @@
       {
         "imgLink": "./images/portfolio/portfolio6.jpg",
         "imgLinkLg": "./images/portfolio/portfolio6_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "700"
@@ -149,8 +149,8 @@
       {
         "imgLink": "./images/portfolio/portfolio1.jpg",
         "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200"
@@ -158,8 +158,8 @@
       {
         "imgLink": "./images/portfolio/portfolio2.jpg",
         "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "300"
@@ -167,8 +167,8 @@
       {
         "imgLink": "./images/portfolio/portfolio3.jpg",
         "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "400"
@@ -391,8 +391,8 @@
       "link": "/"
     },
     {
-      "icon": "linkedin",
-      "title": "LinkedIn",
+      "icon": "instagram",
+      "title": "Instagram",
       "link": "/"
     }
   ],
@@ -406,8 +406,8 @@
       "link": "/twitter"
     },
     {
-      "icon": "linkedin",
-      "link": "/Linkedin"
+      "icon": "instagram",
+      "link": "/instagram"
     }
   ]
 }
