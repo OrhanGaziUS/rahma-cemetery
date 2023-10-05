@@ -32,11 +32,13 @@ const About = ({ data }) => {
                   data-aos-delay="500"
                 >
                   <div className="st-text-block-text">
-                    <p>Can be written anything!</p>
+                    <p>
+                      Rahma Meadow of Mercy Cemetery is a Muslim-only cemetery
+                      in Lehigh Valley, PA. This cemetery can serve Muslims in
+                      the surrounding areas. Please contact us for more details.
+                    </p>
                   </div>
-                  <div>
-                    <h3>CODE</h3>
-                  </div>
+                  <div>{/*<h3>CODE</h3>*/}</div>
 
                   <div className="st-text-block-btn">
                     <a
@@ -44,7 +46,7 @@ const About = ({ data }) => {
                       href={cvPdf}
                       download
                     >
-                      Can add a button here !
+                      Contact us!
                     </a>
                   </div>
                 </div>

@@ -107,8 +107,8 @@ const Contact = ({ data, socialData }) => {
                 <div className="st-single-info-details">
                   <h4>Address</h4>
                   <span>
-                    439 Vista Dr <br />
-                    Macungie, PA 18062
+                    Rahma Cemetery 17 Fleetwood Rd, <br />
+                    Fleetwood PA 19522
                   </span>
                 </div>
               </div>
