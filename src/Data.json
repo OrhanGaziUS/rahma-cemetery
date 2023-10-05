@@ -383,7 +383,7 @@
     {
       "icon": "facebook",
       "title": "Facebook",
-      "link": "/"
+      "link": "https://www.facebook.com/profile.php?id=61552029633823"
     },
     {
       "icon": "twitter",
@@ -399,7 +399,7 @@
   "socialData2": [
     {
       "icon": "facebook-f",
-      "link": "/facebook"
+      "link": "https://www.facebook.com/profile.php?id=61552029633823"
     },
     {
       "icon": "twitter",

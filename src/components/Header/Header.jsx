@@ -68,7 +68,7 @@ const Header = () => {
                       duration={500}
                       onClick={() => setMobileToggle(false)}
                     >
-                      About
+                      Location
                     </ScrollLink>
                   </li>
 
