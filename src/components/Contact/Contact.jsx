@@ -46,23 +46,23 @@ const Contact = ({ data, socialData }) => {
                 />
               </div>
               <div className="st-form-field">
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  placeholder="Your Subject"
-                  required
-                />
+                <select className="st-form-field" name="selectedFruit">
+                  <option value="noselection">-- Choose one!--</option>
+                  <option value="selectiona">Contact</option>
+                  <option value="selectionb">Reservation</option>
+                </select>
               </div>
               <div className="st-form-field">
-                <textarea
-                  cols="30"
-                  rows="10"
-                  id="msg"
-                  name="msg"
-                  placeholder="Your Message"
-                  required
-                ></textarea>
+                {
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    id="msg"
+                    name="msg"
+                    placeholder="Your Message"
+                    required
+                  ></textarea>
+                }
               </div>
               <button
                 className="st-btn st-style1 st-color1"

@@ -36,6 +36,7 @@ const About = ({ data }) => {
                 >
                   <div className="st-text-block-text">
                     <p>
+                      From Al Maqasid, PA – 11 miles or ~19 min <br />
                       From Muslim Association of Lehigh Valley, PA – 23 miles or
                       ~35 min <br />
                       From Easton Phillipsburg Muslim Associaton, PA – 39 miles
