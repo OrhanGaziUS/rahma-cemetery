@@ -4,7 +4,7 @@
       "imgAuthor": "/images/section/hero-img.jpg",
       "bgImgLink": "/images/background/hero-bg-1.jpg",
       "title": " Welcome to  <br> <span>Rahma Meadow of Mercy Cemetery</span>",
-      "text": "Rahma Meadow of Mercy Cemetery is a Muslim-only cemetery in Lehigh Valley, PA. <br>  This cemetery can serve Muslims in the surrounding areas."
+      "text": "Rahma Meadow of Mercy Cemetery is a Muslim only cemetery in Lehigh Valley, PA. <br>  This cemetery serves Muslims in the surrounding areas."
     }
   },
   "aboutData": {
@@ -19,7 +19,7 @@
       {
         "imgLink": "./images/icon/cemetery.png",
         "title": "Cemetery",
-        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "text": "",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "200"
@@ -27,7 +27,7 @@
       {
         "imgLink": "./images/icon/Ghusul.png",
         "title": "Ghusul",
-        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "text": "",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "300"
@@ -35,7 +35,7 @@
       {
         "imgLink": "./images/icon/relser.png",
         "title": "Religious Services",
-        "text": "Lorem ipsum dolor sittem ametamn elit, per sed do eiusmoad teimpor sittem elit inuning utsed sittem.",
+        "text": "",
         "effect": "zoom-out-up",
         "duration": "500",
         "delay": "400"
@@ -46,22 +46,13 @@
   "portfolioData": {
     "portfolioItems": [
       {
-        "imgLink": "./images/portfolio/portfolio1.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
+        "imgLink": "./images/portfolio/1.png",
+        "imgLinkLg": "./images/portfolio/1lg.png",
         "title": "",
         "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio2.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
-        "title": "",
-        "subTitle": "",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "300"
       },
       {
         "imgLink": "./images/portfolio/portfolio3.jpg",
@@ -70,7 +61,7 @@
         "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
-        "delay": "400"
+        "delay": "300"
       },
       {
         "imgLink": "./images/portfolio/portfolio4.jpg",
@@ -79,16 +70,16 @@
         "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
-        "delay": "500"
+        "delay": "400"
       },
       {
-        "imgLink": "./images/portfolio/portfolio5.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
+        "imgLink": "./images/portfolio/portfolio2.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
         "title": "",
         "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
-        "delay": "600"
+        "delay": "500"
       },
       {
         "imgLink": "./images/portfolio/portfolio6.jpg",
@@ -97,157 +88,40 @@
         "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
-        "delay": "700"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio1.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "",
-        "subTitle": "",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "200"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio2.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
-        "title": "",
-        "subTitle": "",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "300"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio3.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
-        "title": "",
-        "subTitle": "",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "400"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio4.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "500"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio5.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
         "delay": "600"
       },
       {
-        "imgLink": "./images/portfolio/portfolio6.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio6_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "imgLink": "./images/portfolio/portfolio5.jpg",
+        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "700"
       },
       {
-        "imgLink": "./images/portfolio/portfolio1.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "200"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio2.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "300"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio3.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "400"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio4.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "500"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio5.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "600"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio6.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio6_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "imgLink": "./images/portfolio/7.png",
+        "imgLinkLg": "./images/portfolio/7lg.png",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "700"
       },
       {
-        "imgLink": "./images/portfolio/portfolio1.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio1_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "imgLink": "./images/portfolio/8.png",
+        "imgLinkLg": "./images/portfolio/8lg.png",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
-        "delay": "200"
+        "delay": "700"
       },
       {
-        "imgLink": "./images/portfolio/portfolio2.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio2_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "300"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio3.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio3_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "400"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio4.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio4_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
-        "effect": "fade-up",
-        "duration": "500",
-        "delay": "500"
-      },
-      {
-        "imgLink": "./images/portfolio/portfolio5.jpg",
-        "imgLinkLg": "./images/portfolio/portfolio5_lg.jpg",
-        "title": "Product Design",
-        "subTitle": "Design / Marketing",
+        "imgLink": "./images/portfolio/10.png",
+        "imgLinkLg": "./images/portfolio/10lg.png",
+        "title": "",
+        "subTitle": "",
         "effect": "fade-up",
         "duration": "500",
         "delay": "600"
@@ -308,20 +182,20 @@
     "informations": [
       {
         "imgLink": "./images/client/client1.png",
-        "title": "Ehtisam Bhai",
-        "designation": "Chairman",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+        "title": "Rizwan Moosa",
+        "designation": "Director of Funeral Services",
+        "text": "   <br> Serving community is to serve to Islam"
       },
       {
-        "imgLink": "./images/client/client2.png",
-        "title": "Muhtesem Bhai",
+        "imgLink": "./images/client/client1.png",
+        "title": "Ehtesham Khoyratty",
         "designation": "Executive Director",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+        "text": "We don't seek any reward other than the pleasure of Allah!"
       },
       {
-        "imgLink": "./images/client/client3.png",
-        "title": "Kehnesan Bhai",
-        "designation": "Executive Assistant",
+        "imgLink": "./images/client/comm.png",
+        "title": "The Community",
+        "designation": "Executive Director",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
       }
     ]
@@ -330,37 +204,19 @@
     "formTitle": "Reach us!",
     "title": "Contact Info",
     "subTitle": "You can also reach us on",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ligula nulla tincidunt id faucibus sed suscipit feugiat."
+    "text": "Please reach out to  us for plot reservations or additional information."
   },
   "socialData": [
     {
       "icon": "facebook",
       "title": "Facebook",
       "link": "https://www.facebook.com/profile.php?id=61552029633823"
-    },
-    {
-      "icon": "twitter",
-      "title": "Twitter",
-      "link": "/"
-    },
-    {
-      "icon": "instagram",
-      "title": "Instagram",
-      "link": "/"
     }
   ],
   "socialData2": [
     {
       "icon": "facebook-f",
       "link": "https://www.facebook.com/profile.php?id=61552029633823"
-    },
-    {
-      "icon": "twitter",
-      "link": "/twitter"
-    },
-    {
-      "icon": "instagram",
-      "link": "/instagram"
     }
   ]
 }

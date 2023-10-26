@@ -11,7 +11,12 @@ const SocialLinks2 = ({ data }) => {
       data-aos-delay="200"
     >
       {data.map((item, index) => (
-        <Link to={item.link} className="st-social-btn" key={index}>
+        <Link
+          to={item.link}
+          className="st-social-btn"
+          key={index}
+          target="_blank"
+        >
           <span className="st-social-icon">
             <Icon icon={`fa6-brands:${item.icon}`} />
           </span>

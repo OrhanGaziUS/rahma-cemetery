@@ -4,9 +4,34 @@ import "./Contact.scss";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import { Icon } from "@iconify/react";
 import SocialLinks from "../SocialLinks/SocialLinks";
+import { useState } from "react";
+import axios from "axios";
 
 const Contact = ({ data, socialData }) => {
   const { title, text, subTitle } = data;
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("Plot Reservation");
+  const [message, setMessage] = useState("");
+
+  const sendEmail = async () => {
+    if (!name || !email || !subject || !message) {
+      alert("Please fill the form");
+      return;
+    }
+    await axios
+      .post("https://loreandigital.com/api/send-email", {
+        name: name,
+        email: email,
+        subject: subject,
+        message: message,
+      })
+      .then((response) => {
+        console.log(response.data);
+      })
+      .catch((error) => console.log(error));
+  };
+
   return (
     <section id="contact" className="st-dark-bg">
       <div className="st-height-b100 st-height-lg-b80"></div>
@@ -21,12 +46,7 @@ const Contact = ({ data, socialData }) => {
           <div className="col-lg-6">
             <h3 className="st-contact-title">Reach Us! </h3>
             <div id="st-alert"></div>
-            <form
-              action="#"
-              method="POST"
-              className="st-contact-form"
-              id="contact-form"
-            >
+            <div className="st-contact-form">
               <div className="st-form-field">
                 <input
                   type="text"
@@ -34,6 +54,7 @@ const Contact = ({ data, socialData }) => {
                   name="name"
                   placeholder="Your Name"
                   required
+                  onChange={(e) => setName(e.target.value)}
                 />
               </div>
               <div className="st-form-field">
@@ -43,13 +64,17 @@ const Contact = ({ data, socialData }) => {
                   name="email"
                   placeholder="Your Email"
                   required
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
               <div className="st-form-field">
-                <select className="st-form-field" name="selectedFruit">
-                  <option value="noselection">-- Choose one!--</option>
-                  <option value="selectiona">Contact</option>
-                  <option value="selectionb">Reservation</option>
+                <select
+                  className="st-form-field"
+                  name="selectedFruit"
+                  onChange={(e) => setSubject(e.target.value)}
+                >
+                  <option value="Plot Reservation">Plot Reservation</option>
+                  <option value="More information">More information</option>
                 </select>
               </div>
               <div className="st-form-field">
@@ -61,18 +86,20 @@ const Contact = ({ data, socialData }) => {
                     name="msg"
                     placeholder="Your Message"
                     required
+                    onChange={(e) => setMessage(e.target.value)}
                   ></textarea>
                 }
               </div>
               <button
                 className="st-btn st-style1 st-color1"
-                type="submit"
+                type="button"
                 id="submit"
                 name="submit"
+                onClick={sendEmail}
               >
                 Send Message
               </button>
-            </form>
+            </div>
             <div className="st-height-b0 st-height-lg-b30"></div>
           </div>
           <div className="col-lg-6">
@@ -86,8 +113,8 @@ const Contact = ({ data, socialData }) => {
                 </div>
                 <div className="st-single-info-details">
                   <h4>Email</h4>
-                  <Link to="#">orhan@gazi.com</Link>
-                  <Link to="#">info@support.com</Link>
+                  <Link to="#">info@rahmacemetery.org </Link>
+                  {/*<Link to="#">info@support.com</Link>*/}
                 </div>
               </div>
               <div className="st-single-contact-info">
@@ -96,8 +123,11 @@ const Contact = ({ data, socialData }) => {
                 </div>
                 <div className="st-single-info-details">
                   <h4>Phone</h4>
-                  <span>+1 915 015 1212</span>
-                  <span>+1 519 515 1212</span>
+                  <span>
+                    Rizwan Moosa <br />
+                    +1 717 480 0416
+                  </span>
+                  {/* <span>+1 651 4284008</span> */}
                 </div>
               </div>
               <div className="st-single-contact-info">
@@ -107,7 +137,7 @@ const Contact = ({ data, socialData }) => {
                 <div className="st-single-info-details">
                   <h4>Address</h4>
                   <span>
-                    Rahma Cemetery 17 Fleetwood Rd, <br />
+                    Rahma Cemetery <br /> 313 Forgedale Road, <br />
                     Fleetwood PA 19522
                   </span>
                 </div>

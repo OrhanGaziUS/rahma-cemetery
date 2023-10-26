@@ -12,7 +12,6 @@ const Home3 = () => {
     aboutData,
     serviceData,
     portfolioData,
-    blogData,
     reviewData,
     contactData,
     socialData,
@@ -24,7 +23,7 @@ const Home3 = () => {
       <About data={aboutData} data-aos="fade-right" />
       <Iconbox data={serviceData} data-aos="fade-right" />
       <PortfolioSection data={portfolioData} data-aos="fade-right" />
-      <ReviewSection data={reviewData} data-aos="fade-right" />
+      {/* <ReviewSection data={reviewData} data-aos="fade-right" /> */}
       <Contact
         data={contactData}
         socialData={socialData}
